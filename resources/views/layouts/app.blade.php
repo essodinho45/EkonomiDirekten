@@ -23,11 +23,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    @vite(['resources/lib/animate/animate.min.css',
-     'resources/lib/owlcarousel/assets/owl.carousel.min.css',
-     'resources/sass/app.scss',
-     'resources/css/app.css',
-     ])
+    @vite(['resources/lib/animate/animate.min.css', 'resources/lib/owlcarousel/assets/owl.carousel.min.css', 'resources/sass/app.scss', 'resources/css/app.css'])
 </head>
 
 <body>
@@ -54,7 +50,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="{{ route('home') }}" class="navbar-brand ms-4 ms-lg-0">
-                <img src="{{ Vite::asset('resources/img/logowide.png') }}" height="64">
+                <img src="{{ Vite::asset('resources/img/logowide.png') }}" class="logo-img">
                 <!-- <h1 class="display-5 text-primary m-0">Finanza</h1> -->
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
@@ -63,10 +59,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="{{ route('home') }}" class="nav-item nav-link @if(request()->routeIs('home')) active @endif">Hem</a>
-                    <a href="{{ route('about') }}" class="nav-item nav-link @if(request()->routeIs('about')) active @endif">Om</a>
-                    <a href="{{ route('service') }}" class="nav-item nav-link @if(request()->routeIs('service')) active @endif">Tjänster</a>
-                    <a href="{{ route('contact') }}" class="nav-item nav-link @if(request()->routeIs('contact')) active @endif">Kontakta</a>
+                    <a href="{{ route('home') }}"
+                        class="nav-item nav-link @if (request()->routeIs('home')) active @endif">Hem</a>
+                    <a href="{{ route('about') }}"
+                        class="nav-item nav-link @if (request()->routeIs('about')) active @endif">Om Oss</a>
+                    <a href="{{ route('service') }}"
+                        class="nav-item nav-link @if (request()->routeIs('service')) active @endif">Tjänster</a>
+                    <a href="{{ route('contact') }}"
+                        class="nav-item nav-link @if (request()->routeIs('contact')) active @endif">Kontakta</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
                     <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
@@ -91,7 +91,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Our Office</h4>
+                    <h4 class="text-white mb-4">Kontakt</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kungsängsvägen 27, 753 23 Uppsala</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>018-751 33 20</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@toptouch.se</p>
@@ -107,20 +107,23 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Financial Planning</a>
-                    <a class="btn btn-link" href="">Cash Investment</a>
-                    <a class="btn btn-link" href="">Financial Consultancy</a>
-                    <a class="btn btn-link" href="">Business Loans</a>
-                    <a class="btn btn-link" href="">Business Analysis</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
+                    {{-- <h4 class="text-white mb-4">Quick Links</h4>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">Support</a> --}}
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Tjänster</h4>
+                    <a class="btn btn-link">Bokföring</a>
+                    <a class="btn btn-link">Lönehantering</a>
+                    <a class="btn btn-link">Årsredovisning</a>
+                    <a class="btn btn-link">Skattedeklarationer</a>
+                    <a class="btn btn-link">Rådgivning</a>
+                    <a class="btn btn-link">Bolagsbildning</a>
+                    <a class="btn btn-link">Budget och prognoser</a>
+                    <a class="btn btn-link">Ekonomisk rapportering</a>
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Newsletter</h4>
@@ -167,14 +170,10 @@
         'resources/js/app.js',
         // 'resources/lib/wow/wow.min.js',
     ]);
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    @vite([
-        'resources/lib/easing/easing.min.js',
-        'resources/lib/waypoints/waypoints.min.js',
-        'resources/lib/owlcarousel/owl.carousel.min.js',
-        'resources/lib/counterup/counterup.min.js',
-        'resources/js/main.js'
-        ]);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    @vite(['resources/lib/easing/easing.min.js', 'resources/lib/waypoints/waypoints.min.js', 'resources/lib/owlcarousel/owl.carousel.min.js', 'resources/lib/counterup/counterup.min.js', 'resources/js/main.js']);
 </body>
 
 </html>

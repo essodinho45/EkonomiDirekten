@@ -562,3 +562,7 @@ h6,
 #navbarCollapse div .btn.rounded-circle .text-primary {
     color: var(--light) !important;
 }
+
+.logo-img {
+    height: 12vh !important;
+}
