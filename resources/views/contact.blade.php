@@ -22,16 +22,16 @@
             <div class="row g-5">
                 <div class="col-lg-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
                     <p class="mb-2"><b>STOCKHOLM-UPPSALA LÄN</b></p>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kungsängsvägen 27, 753 23 Uppsala
-                        Huvudkonto</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>018-751 33 20</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@ekonomidirekten.se</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kungsängsvägen 27, 753 23 Uppsala
+                        Huvudkonto</p>
                 </div>
                 <div class="col-lg-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
                     <p class="mb-2"><b>SKÅNE-BLEKINE LÄN</b></p>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Älgbacken, 372 34 Ronneby</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>018-751 33 20</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@ekonomidirekten.se</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Älgbacken, 372 34 Ronneby</p>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Kontakta</p>
