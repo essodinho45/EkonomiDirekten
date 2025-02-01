@@ -92,7 +92,14 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Kontakt</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kungsängsvägen 27, 753 23 Uppsala</p>
+                    <p class="mb-2"><b>STOCKHOLM-UPPSALA LÄN</b></p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kungsängsvägen 27, 753 23 Uppsala
+                        Huvudkonto</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>018-751 33 20</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@ekonomidirekten.se</p>
+                    <hr>
+                    <p class="mb-2"><b>SKÅNE-BLEKINE LÄN</b></p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Älgbacken, 372 34 Ronneby</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>018-751 33 20</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@ekonomidirekten.se</p>
                     <div class="d-flex pt-2">
