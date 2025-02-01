@@ -78,7 +78,7 @@
                             </div> --}}
                 </div>
             </div>
-            <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
+            {{-- <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4">
                     <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                         <div class="h-100">
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <!-- About End -->
