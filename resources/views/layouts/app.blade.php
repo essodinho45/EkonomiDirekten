@@ -43,7 +43,7 @@
                 <small class="ms-4"><i class="fa fa-clock text-primary me-2"></i>9.00 am - 6.00 pm</small>
             </div>
             <div class="col-lg-6 px-5 text-end">
-                <small><i class="fa fa-envelope text-primary me-2"></i>info@toptouch.se</small>
+                <small><i class="fa fa-envelope text-primary me-2"></i>info@ekonomidirekten.se</small>
                 <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>018-751 33 20</small>
             </div>
         </div>
@@ -94,7 +94,7 @@
                     <h4 class="text-white mb-4">Kontakt</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kungsängsvägen 27, 753 23 Uppsala</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>018-751 33 20</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@toptouch.se</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@ekonomidirekten.se</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                 class="fab fa-twitter"></i></a>
