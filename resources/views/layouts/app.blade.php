@@ -169,11 +169,11 @@
     @vite([
         'resources/js/app.js',
         // 'resources/lib/wow/wow.min.js',
-    ]);
+    ])
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    @vite(['resources/lib/easing/easing.min.js', 'resources/lib/waypoints/waypoints.min.js', 'resources/lib/owlcarousel/owl.carousel.min.js', 'resources/lib/counterup/counterup.min.js', 'resources/js/main.js']);
+    @vite(['resources/lib/easing/easing.min.js', 'resources/lib/waypoints/waypoints.min.js', 'resources/lib/owlcarousel/owl.carousel.min.js', 'resources/lib/counterup/counterup.min.js', 'resources/js/main.js'])
 </body>
 
 </html>
