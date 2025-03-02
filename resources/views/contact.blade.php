@@ -40,7 +40,7 @@
                         with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're
                         done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> --}}
                     <form action="{{ url('contact') }}" method="POST" class="wpcf7-form" novalidate="novalidate">
-
+                        @csrf
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">

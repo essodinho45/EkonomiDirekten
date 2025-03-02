@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,4 +25,4 @@ Route::get('/service', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
-Route::post('/contact', 'ContactController@PostContact')->name('postContact');
+Route::post('/contact', [ContactController::class, 'PostContact'])->name('postContact');
