@@ -30,12 +30,12 @@ class ContactController extends Controller
         );
 
         Mail::send('emails.contact', ['data' => $data], function ($message) use ($data) {
-            $message->from('info@ekonomidirekten.se');
+            $message->from($data['email']);
             $message->to('info@ekonomidirekten.se', 'Mail from contact form');
             $message->subject($data['subject']);
         });
         Mail::send('emails.reply', [], function ($message) use ($data) {
-            $message->from('info@ekonomidirekten.se');
+            $message->from('noreply@ekonomidirekten.se');
             $message->to($data['email']);
             $message->subject($data['subject'] . ' - reply');
         });
