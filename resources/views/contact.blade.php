@@ -72,6 +72,11 @@
                             <div class="col-12">
                                 <button class="btn btn-primary py-3 px-5" type="submit">Skicka Meddelande</button>
                             </div>
+                            <div class="my-3">
+                                <div class="loading">Skickar meddelande...</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Meddelande skickat, tack.</div>
+                            </div>
                         </div>
                     </form>
                 </div>

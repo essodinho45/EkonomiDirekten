@@ -29,16 +29,18 @@ class ContactController extends Controller
             'message' => $request['message']
         );
 
-        Mail::send('emails.contact', $data, function ($message) use ($data) {
-            $message->from($data['email']);
-            $message->to('info@ekonomidirekten.se');
+        Mail::send('emails.contact', ['data' => $data], function ($message) use ($data) {
+            $message->from('info@ekonomidirekten.se');
+            $message->to('info@ekonomidirekten.se', 'Mail from contact form');
             $message->subject($data['subject']);
         });
+        Mail::send('emails.reply', [], function ($message) use ($data) {
+            $message->from('info@ekonomidirekten.se');
+            $message->to($data['email']);
+            $message->subject($data['subject'] . ' - reply');
+        });
 
-        Session::flash('success', 'Your E-mail was sent! Allegedly.');
-        Session::flash('alert-class', 'alert-success');
-
-        return redirect('contact');
+        return response('OK', 200);
 
     }
 }
