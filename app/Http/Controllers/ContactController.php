@@ -36,11 +36,11 @@ class ContactController extends Controller
             $message->replyTo($data['email']);
             $message->subject($data['subject']);
         });
-        // Mail::send('emails.reply', [], function ($message) use ($data) {
-        //     $message->from('no-reply@ekonomidirekten.se');
-        //     $message->to($data['email']);
-        //     $message->subject($data['subject'] . ' - reply');
-        // });
+        Mail::send('emails.reply', [], function ($message) use ($data) {
+            $message->from('no-reply@ekonomidirekten.se');
+            $message->to($data['email']);
+            $message->subject($data['subject'] . ' - reply');
+        });
 
         return response('OK', 200);
 
